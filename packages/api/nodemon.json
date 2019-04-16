@@ -1,0 +1,6 @@
+{
+  "watch": ["*"],
+  "events": {
+    "crash": "osascript -e 'display notification \"We're having some issues\" with title \"Server Crashed!!\"'"
+  }
+}

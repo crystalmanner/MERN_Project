@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "codelab-core-20190310200232-authRole",
+            "UnauthRoleArn": "arn:aws:iam::810113963961:role/codelab-core-20190310200232-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::810113963961:role/codelab-core-20190310200232-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "codelab-core-20190310200232-deployment",
+            "UnauthRoleName": "codelab-core-20190310200232-unauthRole",
+            "StackName": "codelab-core-20190310200232",
+            "StackId": "arn:aws:cloudformation:us-west-2:810113963961:stack/codelab-core-20190310200232/1d9b2940-43aa-11e9-a05f-02e2b9ae2f96"
+        },
+        "categories": {
+            "auth": {
+                "cognitoe401b534": {}
+            }
+        }
+    }
+}

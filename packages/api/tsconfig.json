@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "lib": ["es6", "dom", "esnext.asynciterable"],
+    "noUnusedLocals": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "rootDirs": ["."],
+    "strict": true
+  },
+  "exclude": ["node_modules", "dist"]
+}

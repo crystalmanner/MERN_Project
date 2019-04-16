@@ -1,0 +1,53 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "codelab-core-20190310200232-authRole",
+			"UnauthRoleArn": "arn:aws:iam::810113963961:role/codelab-core-20190310200232-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::810113963961:role/codelab-core-20190310200232-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "codelab-core-20190310200232-deployment",
+			"UnauthRoleName": "codelab-core-20190310200232-unauthRole",
+			"StackName": "codelab-core-20190310200232",
+			"StackId": "arn:aws:cloudformation:us-west-2:810113963961:stack/codelab-core-20190310200232/1d9b2940-43aa-11e9-a05f-02e2b9ae2f96"
+		}
+	},
+	"api": {
+		"codelab": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "42xbagsavjbnriy2vq5fle5tlq",
+				"GraphQLAPIEndpointOutput": "https://p2mhk2lp55bgbdegmuhgehaite.appsync-api.us-west-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-6yifxybeffblpkgcpdqouyw5um"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/codelab-core-20190310200232-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apicodelab"
+			},
+			"lastPushTimeStamp": "2019-03-11T03:12:12.845Z",
+			"lastPushDirHash": "3UipsUy+RL3yJ+sAcEzPlBCDp98="
+		}
+	},
+	"auth": {
+		"cognitoe401b534": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/codelab-core-20190310200232-deployment/amplify-cfn-templates/auth/cognitoe401b534-cloudformation-template.yml",
+				"logicalId": "authcognitoe401b534"
+			},
+			"lastPushTimeStamp": "2019-03-11T03:12:12.845Z",
+			"output": {
+				"AppClientSecret": "27mg72msim3pplk9mq05fsg2ufh87kvi5pqm1a4mhg2b7rrt5bq",
+				"UserPoolId": "us-west-2_PtaxKvaSL",
+				"AppClientIDWeb": "6csm1dbb8v3qa86k4ofcvmhg6k",
+				"AppClientID": "66o2l0lp1e14lh8ljp2ap3sni6",
+				"IdentityPoolId": "us-west-2:404cd889-6546-460c-857a-61bac3b0d5a7",
+				"IdentityPoolName": "cognitoe401b534_identitypool_e401b534__dev",
+				"UserPoolName": "cognitoe401b534_userpool_e401b534"
+			},
+			"lastPushDirHash": "Za3+7iHTpjRDPdb0OOteVNIqQjo="
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap",
+    "build": "npx lerna --scope={@codelab/form,@codelab/layout,@codelab/appsync,@codelab/next-apollo} exec yarn build",
+    "start": "npx lerna --scope={@codelab/core,@codelab/form,@codelab/next-apollo} run dev --parallel",
+    "test": "npx lerna --scope={@codelab/core,@codelab/form} run test --parallel",
+    "lint": "npx lerna --scope={@codelab/core,@codelab/form} run lint --parallel"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn test"
+    }
+  }
+}

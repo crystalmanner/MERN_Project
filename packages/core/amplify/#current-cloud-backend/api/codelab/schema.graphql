@@ -1,0 +1,10 @@
+type Model @model {
+  id: ID!
+  name: String!
+  fields: [Field] @connection(name: "ModelFields")
+}
+type Field @model {
+  id: ID!
+  name: String!
+  model: Model @connection(name: "ModelFields")
+}

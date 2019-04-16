@@ -1,0 +1,23 @@
+type Model @model {
+  id: ID!
+  name: String!
+  fields: [Field] @connection(name: "ModelFields")
+}
+
+type Field @model {
+  id: ID!
+  name: String!
+  model: Model @connection(name: "ModelFields")
+}
+
+type CSSProperty @model {
+  id: ID!
+  name: String!
+  options: [CSSOption] @connection(name: "CSSPropertyOptions")
+}
+
+type CSSOption @model {
+  id: ID!
+  value: String!
+  property: [CSSProperty] @connection(name: "CSSPropertyOptions")
+}

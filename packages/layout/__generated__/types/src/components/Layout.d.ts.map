@@ -1,0 +1,1 @@
+{"version":3,"file":"Layout.d.ts","sourceRoot":"","sources":["../../../../src/components/Layout.tsx"],"names":[],"mappings":"AAUA,OAAO,EAAE,IAAI,EAAE,MAAM,QAAQ,CAAC;AAE9B,cAAM,MAAM;IACV,SAAS,EAAE,IAAI,EAAE,CAAM;IACvB,OAAO,KAAM;IAEb,OAAO,CAAC,IAAI,EAAE,IAAI;IAIlB;;OAEG;IACH,SAAS;IAWT;;;;;;;;;;OAUG;IACH,OAAO,CAAC,SAAS;CAiBlB;AAED,OAAO,EAAE,MAAM,EAAE,CAAC"}

@@ -1,0 +1,55 @@
+.grid {
+  display: block;
+  width: 100; }
+  .grid > .ant-checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 2px;
+    position: relative; }
+    .grid > .ant-checkbox-wrapper > .ant-checkbox {
+      display: none; }
+    .grid > .ant-checkbox-wrapper-checked {
+      border: 2px solid rgba(24, 144, 255, 0.3); }
+      .grid > .ant-checkbox-wrapper-checked:before {
+        border: 1.5px solid #1890ff;
+        border-radius: 1px;
+        content: "";
+        width: 100%;
+        position: absolute;
+        height: 46px; }
+  .grid .ant-radio-group {
+    width: 100%; }
+  .grid .ant-radio-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.5rem; }
+    .grid .ant-radio-wrapper > .ant-radio {
+      display: none; }
+    .grid .ant-radio-wrapper-checked {
+      border: 2px solid rgba(24, 144, 255, 0.3); }
+      .grid .ant-radio-wrapper-checked:before {
+        border: 1.5px solid #1890ff;
+        border-radius: 1px;
+        content: "";
+        width: 100%;
+        position: absolute;
+        height: 46px; }
+
+.form-label-wrapper {
+  width: 100%;
+  margin-right: 5px; }
+
+.ant-input[hidden] + div {
+  display: none; }
+
+form p:last-child {
+  margin-bottom: 0; }
+
+
+/*# sourceMappingURL=main.css.map*/
